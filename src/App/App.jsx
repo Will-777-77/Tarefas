@@ -1,6 +1,8 @@
 import './App.css';
 import Sidebar from '../componentes/Sidebar/Sidebar';
 import Header from '../componentes/Header/Header';
+import Tarefas from '../componentes/Tarefas/Tarefas';
+
 
 function App() {
   return (
@@ -8,8 +10,8 @@ function App() {
       <Header />
       <div className="div-conteudo-principal">
         <Sidebar />
-        <main>
-          <h1>Tarefas</h1>
+        <main className='tarefas-principal'>
+          <Tarefas/>
         </main>
       </div>
     </section>

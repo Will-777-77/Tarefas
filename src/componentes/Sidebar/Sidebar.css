@@ -5,3 +5,9 @@
     align-items: flex-start;
     background-color: var(--cor-principal);
 }
+.botao-principal{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
