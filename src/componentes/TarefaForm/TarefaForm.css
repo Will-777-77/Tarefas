@@ -1,0 +1,20 @@
+.tarefas-input-btn {
+    display: flex;
+    gap: 10px;
+}
+.botao-add-tarefas {
+    background-color: black;
+    color: var(--cor-principal);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao-add-tarefas:hover {
+    background-color: rgba(255, 0, 0, 0.83);
+    color: white;
+    scale: calc(1.1);
+}
+input {
+    color: black;
+}
