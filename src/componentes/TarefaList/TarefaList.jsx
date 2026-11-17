@@ -1,11 +1,24 @@
+import { Circle, Delete, Stars, X } from 'lucide-react';
 import './TarefaList.css';
 function TarefaList (){
     let listadeTarefas = ["Estudar mais tarde","Estudo concluido","Estudo em andamento"]
     return (
-        <ul>
+        <ul className='lista-estudos'>
             {
                 listadeTarefas.map ((listas)=>{
-                    return <li>{listas}</li>
+                    return(<li className='lista-tarefas'>
+
+                        <section>
+                        <Circle/>
+                        <span>{listas}</span>
+                        </section>
+
+                        <section className='acoes-tarefas'> 
+                        <div><Stars/></div>
+                        <div><X/></div>
+                        </section>
+                    
+                    </li>)
                 })
             }
         </ul>                

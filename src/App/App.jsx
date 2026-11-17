@@ -5,15 +5,15 @@ import Tarefas from '../componentes/Tarefas/Tarefas';
 
 function App() {
   return (
-    <section>
+    <>
       <Header />
       <div className="div-conteudo-principal">
         <Sidebar />
         <main className='tarefas-principal'>
-          <Tarefas/>
+        <Tarefas/>
         </main>
       </div>
-    </section>
+    </>
   );
 }
 

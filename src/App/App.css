@@ -2,18 +2,22 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
+    box-sizing: border-box;
 }
 
 .div-conteudo-principal {
     display: flex;
     flex-direction: row;
+    height: 80%;
+    flex: 1;
 }
 
 
 #root {
   min-height: 100vh;
-  background-color: black;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 

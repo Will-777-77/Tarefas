@@ -5,7 +5,7 @@ function Tarefas(){
     return (
         <div className='nome-tarefas-principal'>
             <TarefaForm/>
-            <TarefaList/>
+            <TarefaList />
         </div>
     )
 }
