@@ -10,4 +10,12 @@
     border: none;
     cursor: pointer;
     width: 100%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    padding: 15px;
+    justify-content: start;
+
 }
