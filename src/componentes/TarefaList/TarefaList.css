@@ -18,7 +18,7 @@
     
 }
 .lista-tarefas:hover {
-    background-color: var(--cor-4);
+    background-color: var(--cor-7);
     border-radius: 10px;
 }
 .acoes-tarefas {

@@ -1,4 +1,4 @@
-import { Circle, Delete, Stars, X } from "lucide-react";
+import { Circle, Trash, Star,  } from "lucide-react";
 import "./TarefaList.css";
 function TarefaList() {
   let listadeTarefas = [
@@ -17,10 +17,10 @@ function TarefaList() {
             </section>
             <section className="acoes-tarefas">
               <div>
-                <Stars />
+                <Star />
               </div>
               <div>
-                <X />
+                <Trash />
               </div>
             </section>
           </li>
