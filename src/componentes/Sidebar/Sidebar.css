@@ -19,3 +19,8 @@
     justify-content: start;
 
 }
+.botao-principal:hover {
+    background-color: rgba(240, 248, 255, 0.555);
+    border-radius: 10px;
+
+}
