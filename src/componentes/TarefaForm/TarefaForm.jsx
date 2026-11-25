@@ -3,7 +3,11 @@ import "./TarefaForm.css"
 function TarefaForm (){
     const [NomeTarefas, setNomeTarefas] = useState ('');
     function criarTarefaNoLocalStorage(){
-        localStorage.setItem("Tarefas:", NomeTarefas)
+        const tarefasAntigas = JSON.parse(localStorage.getItem("Tarefas:")) || []
+        const tarefasAntigasComAsNovas = [...tarefasAntigas, NomeTarefas]
+        const novasTarefasString = JSON.stringify (tarefasAntigasComAsNovas)
+
+        localStorage.setItem("Tarefas:", novasTarefasString)
     }
     return(
         <form onSubmit={criarTarefaNoLocalStorage} className="tarefas-input-btn">
